@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "node --max-http-header-size=5000000 index.js",
+    "dev": "nodemon --max-http-header-size=5000000 index.js "
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "nodemon": "^2.0.7"
+  }
+}
